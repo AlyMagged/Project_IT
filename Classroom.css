@@ -1,0 +1,20 @@
+.body{
+    background-color: #afafaf;
+}
+
+.container-fluid{
+    box-shadow: 1px 5px 15px;
+    border-style: none;
+    position: fixed;
+    
+}
+
+url("Teacher.png"()
+
+#teacherphoto{
+    width: 50px;
+    height: 100px;
+    border-style: solid;
+    border-color: blue;
+    border: 150px;
+}
