@@ -1,0 +1,170 @@
+.body{
+    background-color: #fff8ea;
+}
+
+.Welcome{
+    color: red;
+}
+
+.container-fluid{
+    box-shadow: 1px 5px 15px;
+    border-style: none;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+}
+
+.a_student{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin-left: 10%;
+    margin-top: 7%;
+    display: block;
+}
+
+.a_teacher{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin-left: 60%;
+    margin-top: -9%;
+    display: block;
+    
+}
+
+.or{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    margin-left: 45%;
+    margin-top: 0%;
+    display: block;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.SignUpButton{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 8px;
+  height: 2.8em;
+  width: 10em;
+  padding: 0;
+  outline: none;
+  overflow: hidden;
+  color: green;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+  line-height: 250%;
+}
+.SignUpButton::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  line-height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+.SignUpButton:hover {
+  color: #fff;
+}
+.SignUpButton:hover::before {
+  box-shadow: inset 0 0 0 10em green;
+}
+
+.SignUpButton{
+    margin-left: 17%;
+    margin-top: 
+}
+/*\\\\\\\\\\\\\\\\\\\\\\\\*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.SignUpButton1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 8px;
+  height: 2.8em;
+  width: 10em;
+  padding: 0;
+  outline: none;
+  overflow: hidden;
+  color: green;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+  line-height: 250%;
+}
+.SignUpButton1::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  line-height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+.SignUpButton1:hover {
+  color: #fff;
+}
+.SignUpButton1:hover::before {
+  box-shadow: inset 0 0 0 10em green;
+}
+
+.SignUpButton1{
+    margin-left: 67%;
+    margin-top: 
+}
