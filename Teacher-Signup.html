@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Sign up Form</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="Classroom.css">
+    <link rel="stylesheet" href="Teacher-Signup.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid" style="background-color: green">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-family: 'Gamja Flower', cursive; font-size: 40px;">Classroom</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <!--<li class="active"><a href="#">Home</a></li>-->
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Student Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Teacher Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="head-title">Welcome! Please Fill-in Your Account Info</h1>
+    <form>
+        <div class="form-group">
+            <label for="word"><b>Username</b></label>
+            <input type="text" class="form-control" id="word" placeholder="It is preferable not to start your username with a number">
+        </div>
+
+        <div class="form-group">
+            <label for="word"><b>Email</b></label>
+            <input type="email" class="form-control" id="word" placeholder="Enter the word you need to save like: 'Hello'">
+            <small id="emailNote" class="form-text text-muted">An email will be sent to you in order to confirm your email address.</small>
+        </div>
+
+        <div class="form-group ">
+            <label for="definition "><b>Password</b></label>
+            <input type="password" class="form-control " id="definition " placeholder="Word's generic definition">
+        </div>
+
+        <div class="form-group">
+            <label for="url"><b>Confirm Password</b></label>
+            <input type="password" class="form-control" id="wordUrl" placeholder="Definition URL">
+
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit and Sign-up</button>
+    </form>
+</body>
+    
+</html>
