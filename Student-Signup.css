@@ -1,0 +1,49 @@
+.head-title {
+    position: relative;
+    left: 30%;
+    margin-top: 2%;
+    transform: translate(0%, -10%);
+    color: green;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {}
+
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url('E:\Computer Science\Web\MyDictionary\books and notes.jpg');
+    width: 1200px;
+    height: 800px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.form-group,
+button {
+    color: black;
+    width: 33%;
+    margin-left: 35%;
+    padding: 10px;
+}
+
+.btn-primary{
+    background-color: green;
+    border-color: transparent;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+
+}
+
+.btn-primary:hover{
+    background: white;
+    border-color: transparent;
+    color: green;
+    box-shadow: 2px 7px 10px;
+}
