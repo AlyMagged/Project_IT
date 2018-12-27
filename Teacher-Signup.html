@@ -16,12 +16,12 @@
     <script>
             function formValidation()
             {
+                
                 var name = document.forms["regForm"]["Name"];
                 var email = document.forms["regForm"]["Email"];
                 var password = document.forms["regForm"]["Password"];
                 var confpass = document.forms["regForm"]["ConfPassword"];
-                
-                if(name.value == ""){
+                if(name.value == "" ){
                        window.alert("Please Enter Your Name...");
                         name.focus();
                     
@@ -58,6 +58,15 @@
                     password.focus(); 
                     return flase; 
                 } 
+                if(confpass.value == ""){
+                    window.alert("Please Confirm Password");
+                    return false;
+                }
+                
+                if(confpass != password){
+                    window.alert("Password Confirmation is wrong");
+                    return false;
+                }
             }
         </script>
 </head>
@@ -82,7 +91,7 @@
     </nav>
     <h1 class="head-title">Welcome! Please Fill-in Your Account Info</h1>
     
-    <form class = "regForm" onsubmit="return formValidation()"  >
+    <form name = "regForm" onsubmit="return formValidation()"  >
         <div class="form-group">
             <label><b>Username</b></label>
             <input type="text" class="form-control" name="Name">
@@ -106,7 +115,7 @@
 
         </div>
 
-        <button type="submit" class="btn btn-primary" >Submit and Sign-up</button>
+        <button onclick=" " type="submit" class="btn btn-primary" >Submit and Sign-up</button>
         
     </form>
     
