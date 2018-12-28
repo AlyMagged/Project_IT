@@ -164,6 +164,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a><span class="glyphicon glyphicon-user"></span>
+                        <li><a href="Teacher-SignupHTML.php" ><span class="glyphicon glyphicon-user"></span> Logout</a></li>
                         <?php
                         echo $_SESSION['teacherName'] ;
                         ?>
